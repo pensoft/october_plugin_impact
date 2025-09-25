@@ -1,0 +1,37 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        type: textarea
+    description:
+        label: Description
+        span: auto
+        type: richeditor
+    group:
+        label: Group
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    label:
+        label: Label
+        span: auto
+        type: text
+    cover:
+        label: 'File cover'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    file:
+        label: File
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

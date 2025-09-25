@@ -1,0 +1,12 @@
+list: $/pensoft/impact/models/sheet/columns.yaml
+modelClass: Pensoft\Impact\Models\Sheet
+title: Sheets
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'pensoft/impact/sheets/update/:id'

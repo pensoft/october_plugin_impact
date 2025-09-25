@@ -1,0 +1,10 @@
+name: Groups
+form: $/pensoft/impact/models/group/fields.yaml
+modelClass: Pensoft\Impact\Models\Group
+defaultRedirect: pensoft/impact/groups
+create:
+    redirect: 'pensoft/impact/groups/update/:id'
+    redirectClose: pensoft/impact/groups
+update:
+    redirect: pensoft/impact/groups
+    redirectClose: pensoft/impact/groups

@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table pensoft_impact_groups'
+    - builder_table_create_pensoft_impact_groups.php
+1.0.3:
+    - 'Created table pensoft_impact_sheets'
+    - builder_table_create_pensoft_impact_sheets.php
+1.0.4:
+    - 'Updated table pensoft_impact_groups'
+    - builder_table_update_pensoft_impact_groups.php
+1.0.5:
+    - 'Updated table pensoft_impact_sheets'
+    - builder_table_update_pensoft_impact_sheets.php
