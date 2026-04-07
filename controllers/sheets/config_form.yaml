@@ -1,0 +1,10 @@
+name: Sheets
+form: $/pensoft/impact/models/sheet/fields.yaml
+modelClass: Pensoft\Impact\Models\Sheet
+defaultRedirect: pensoft/impact/sheets
+create:
+    redirect: 'pensoft/impact/sheets/update/:id'
+    redirectClose: pensoft/impact/sheets
+update:
+    redirect: pensoft/impact/sheets
+    redirectClose: pensoft/impact/sheets

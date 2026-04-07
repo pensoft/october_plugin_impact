@@ -1,0 +1,20 @@
+plugin:
+    name: 'pensoft.impact::lang.plugin.name'
+    description: 'pensoft.impact::lang.plugin.description'
+    author: Pensoft
+    icon: oc-icon-file-pdf-o
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Impact sheets'
+        url: pensoft/impact/groups
+        icon: icon-file-o
+        sideMenu:
+            side-menu-item:
+                label: Groups
+                url: pensoft/impact/groups
+                icon: icon-align-center
+            side-menu-item2:
+                label: Sheets
+                url: pensoft/impact/sheets
+                icon: icon-file-pdf-o

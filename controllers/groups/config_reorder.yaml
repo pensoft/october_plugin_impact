@@ -1,0 +1,6 @@
+title: Groups
+modelClass: Pensoft\Impact\Models\Group
+toolbar:
+    buttons: reorder_toolbar
+# The attribute on the model to use for the display name
+nameFrom: title

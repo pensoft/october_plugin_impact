@@ -1,0 +1,16 @@
+columns:
+    group_id:
+        label: group_id
+        type: number
+        searchable: true
+        sortable: true
+    title:
+        label: title
+        type: text
+        searchable: true
+        sortable: true
+    label:
+        label: label
+        type: text
+        searchable: true
+        sortable: true
